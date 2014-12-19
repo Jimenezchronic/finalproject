@@ -13,6 +13,7 @@ import android.widget.Button;
     Button but2;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,9 @@ import android.widget.Button;
             @Override
             public void onClick(View v) {
 
-       
+       if (but1 == null){
+
+       }
 
 
             }
